@@ -9,32 +9,32 @@
 
 h1 {
     font-family: "Poppins",sans-serif;
-    font-weight: 500;
+    font-weight: 3000;
 }
 p {
     font-family: "poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 1000;
 }
 h2 {
-font-family: "Poppins",sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 h3 {
     font-family: "Poppins",sans-serif;
     }
 
 .container{
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 .header {
     background-image: linear-gradient(
         rgba(0,0,0,0),
         rgba(0,0,0,0)),
-        url(images/images/bg2.jpg);
+        url(images/images/carpentry-wood-tools-hand-plane-wallpaper-preview.jpg);
     background-position: center bottom; 
     background-repeat: no-repeat;
-    background-size: cover; 
-    min-height: 70vh;
+    background-size:cover ; 
+    min-height: 60vh;
     display: flex; 
     align-items: center; 
 }
@@ -51,20 +51,20 @@ h3 {
 
 .logo{
     color:#fffdfc;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 800;
 }
 
 .menu .navbar ul li {
-    position: relative;
-    float: left;
+    position:relative;
+    float:inline-start;
 }
 .menu .navbar ul li a {
-    font-size: 18px;
-    padding: 20px;
+    font-size: 25px;
+    padding: 25px;
     color: #fffdfc;
     display: block;
-    font-weight: 600;
+    font-weight: 800;
 } 
 .menu .navbar ul li a:hover {
     color: #ce967b;
@@ -73,7 +73,7 @@ h3 {
     display: none;
 }
 .menu-icon {
-    width: 25px;
+    width: 35px;
 }
 
 .menu label {
@@ -81,25 +81,25 @@ h3 {
         display: none;
 }
 .header-content {
-    text-align: center;
+    text-align:center;
 }
 .header-content h1{
-    font-size: 75px;
-    line-height: 80px;
+    font-size: 80px;
+    line-height: 90px;
     color: #f9fafc;
-    text-transform: uppercase;
+    text-transform:uppercase;
     margin-bottom: 35px;
 }
 .header-content p {
-    font-size: 16px;
-    color: #c5c5c5;
-    padding: 0 250px;
-    margin-bottom: 25px;
+    font-size: 30px;
+    color: #f9fafc;
+    padding: 0 300px;
+    margin-bottom: 35px;
 }
 
 .btn-1{
     display: inline-block;
-    padding: 11px 35px;
+    padding: 15px 40px;
     background-color: #ce967b;
     color: #f9fafc;
     text-transform: uppercase;
@@ -108,15 +108,15 @@ h3 {
 .btn-1:hover {
     background-color: #ebad8d;
 }
-.coffee {
+.path-1 {
     padding: 100px 0;
     background-color: #e1e2e6;
     position: relative;
 }
-.coffee-content {
+.path-content {
     text-align: center;
 }
-.coffee-content h2 {
+.path-content h2 {
     font-size: 55px;
     line-height: 70px;
     color: #323337;
@@ -130,23 +130,23 @@ h3 {
     padding: 0 250px;
     margin-bottom: 35px;
 }
-.coffee-group{
+.path-group{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
-.coffee-1 {
+.path-1 {
     padding: 0 25px;
 }
-.coffee-1 img {
+.path-1 img {
     width: 200px;
 }
-.coffee-img{
+.path-img{
     position: absolute;
     top: 0;
     right: 0;
 }
-.coffee-1 h3 {
+.path-1 h3 {
     color: #323337;
     font-size: 20px;
     margin-bottom: 15px;
@@ -156,7 +156,7 @@ h3 {
     background-image: linear-gradient(
         rgba( 0, 0, 0, 0),
         rgba( 0, 0, 0, 0)),
-        url(images/images/bg2.jpg);
+        url(images/images/taller\ carpinteria.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -204,16 +204,17 @@ h3 {
     width: 50%;
     padding: 100px 250px 100px 100px;
     background-color: #e1e2e6;
+    
 }
 .general-2 {
-    background-image: url(images/images/coffe-1.jpg);
+    background-image: url(images/images/cliente22.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
 }
 .general-3 {
-    background-image: url(images/images/coffee-2.jpg);
+    background-image: url(images/images/frascos.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -221,10 +222,10 @@ h3 {
 }
 
 h2{
-    font-size: 55px;
+    font-size: 65px;
     line-height: 70px;
     color: #323337;
-    text-transform: uppercase;
+    text-transform:uppercase;
     margin-bottom: 20px;
 }
 p{
@@ -237,10 +238,7 @@ p{
     padding: 100px 0;
     text-align: center;
 }
-.blog-content{
-    display: flex;
-    justify-content: space-between;
-}
+
 .blog-1{
     padding: 15px 55px;
 }
@@ -259,6 +257,7 @@ p{
     background-color: #000;
 }
 .footer-content{
+    color: #c5c5c5;
     display: flex;
     justify-content: space-between;
 }
@@ -307,20 +306,20 @@ link h3 {
     .header-content{
         padding: 0;
     }
-    .coffee {
+    .path {
         padding: 30px;
     }
-    .coffee-content h2{
+    .path-content h2{
         padding: 0;
     }
     .txt-p {
         padding: 0;
     }
-    .coffee-group{
+    .path-group{
         flex-direction: column;
         margin-bottom: 0;
     }
-    .coffee-img {
+    .path-img {
         display: none;
     }
     .services{
